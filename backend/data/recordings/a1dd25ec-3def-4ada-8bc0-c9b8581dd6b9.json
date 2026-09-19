@@ -1,0 +1,392 @@
+[
+  {
+    "steps": [
+      {
+        "stepIndex": 0,
+        "nodeId": "ef7b92d1-0273-470a-83bd-42161a607720",
+        "nodeType": "start",
+        "nodeLabel": "Start",
+        "status": "executing",
+        "timestamp": 1779135208876,
+        "variables": {},
+        "logs": [],
+        "outputs": []
+      },
+      {
+        "stepIndex": 1,
+        "nodeId": "ef7b92d1-0273-470a-83bd-42161a607720",
+        "nodeType": "start",
+        "nodeLabel": "Start",
+        "status": "completed",
+        "timestamp": 1779135208876,
+        "variables": {},
+        "logs": [
+          "Execution started"
+        ],
+        "outputs": []
+      },
+      {
+        "stepIndex": 2,
+        "nodeId": "cfc34aa1-0327-40d1-8d87-04932f177829",
+        "nodeType": "input",
+        "nodeLabel": "Input",
+        "status": "executing",
+        "timestamp": 1779135209133,
+        "variables": {},
+        "logs": [
+          "Execution started"
+        ],
+        "outputs": []
+      },
+      {
+        "stepIndex": 3,
+        "nodeId": "cfc34aa1-0327-40d1-8d87-04932f177829",
+        "nodeType": "input",
+        "nodeLabel": "Input",
+        "status": "completed",
+        "timestamp": 1779135209133,
+        "variables": {
+          "age": ""
+        },
+        "logs": [
+          "Execution started",
+          "Set age = "
+        ],
+        "outputs": []
+      },
+      {
+        "stepIndex": 4,
+        "nodeId": "3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+        "nodeType": "math",
+        "nodeLabel": "Math",
+        "status": "executing",
+        "timestamp": 1779135209397,
+        "variables": {
+          "age": ""
+        },
+        "logs": [
+          "Execution started",
+          "Set age = "
+        ],
+        "outputs": []
+      },
+      {
+        "stepIndex": 5,
+        "nodeId": "3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+        "nodeType": "math",
+        "nodeLabel": "Math",
+        "status": "completed",
+        "timestamp": 1779135209397,
+        "variables": {
+          "age": "",
+          "total": 5
+        },
+        "logs": [
+          "Execution started",
+          "Set age = ",
+          "Math: total =  + 5 => 5"
+        ],
+        "outputs": []
+      }
+    ],
+    "duration": 786,
+    "description": "Execution 1:43:29 AM",
+    "snapshot": {
+      "nodes": [
+        {
+          "id": "ef7b92d1-0273-470a-83bd-42161a607720",
+          "data": {
+            "label": "Start",
+            "isActive": false,
+            "isInPath": false,
+            "isPaused": false,
+            "breakpoint": false
+          },
+          "type": "start",
+          "position": {
+            "x": 120,
+            "y": 200
+          },
+          "width": 176,
+          "height": 65
+        },
+        {
+          "id": "a5da4ed8-8366-4d59-953b-0dde515dc449",
+          "data": {
+            "label": "End",
+            "isActive": false,
+            "isInPath": false,
+            "isPaused": false,
+            "breakpoint": false
+          },
+          "type": "end",
+          "position": {
+            "x": 760,
+            "y": 200
+          },
+          "width": 176,
+          "height": 65
+        },
+        {
+          "id": "cfc34aa1-0327-40d1-8d87-04932f177829",
+          "data": {
+            "label": "Input",
+            "value": "",
+            "isActive": false,
+            "isInPath": true,
+            "isPaused": false,
+            "breakpoint": false,
+            "variableName": "age"
+          },
+          "type": "input",
+          "position": {
+            "x": 329.3157592149923,
+            "y": 27.72576007128569
+          },
+          "width": 150,
+          "height": 102
+        },
+        {
+          "id": "3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+          "data": {
+            "left": "age",
+            "label": "Math",
+            "right": "5",
+            "target": "total",
+            "isActive": false,
+            "isInPath": true,
+            "isPaused": false,
+            "operator": "+",
+            "breakpoint": false
+          },
+          "type": "math",
+          "position": {
+            "x": 533.1999816894531,
+            "y": 232.3999938964844
+          },
+          "width": 176,
+          "height": 65
+        }
+      ],
+      "edges": [
+        {
+          "id": "reactflow__edge-ef7b92d1-0273-470a-83bd-42161a607720-cfc34aa1-0327-40d1-8d87-04932f177829",
+          "source": "ef7b92d1-0273-470a-83bd-42161a607720",
+          "target": "cfc34aa1-0327-40d1-8d87-04932f177829",
+          "sourceHandle": null,
+          "targetHandle": null
+        },
+        {
+          "id": "reactflow__edge-cfc34aa1-0327-40d1-8d87-04932f177829-3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+          "source": "cfc34aa1-0327-40d1-8d87-04932f177829",
+          "target": "3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+          "sourceHandle": null,
+          "targetHandle": null
+        }
+      ]
+    },
+    "id": "1779135209669-88a1aff053d49"
+  },
+  {
+    "steps": [
+      {
+        "stepIndex": 0,
+        "nodeId": "ef7b92d1-0273-470a-83bd-42161a607720",
+        "nodeType": "start",
+        "nodeLabel": "Start",
+        "status": "executing",
+        "timestamp": 1779135238633,
+        "variables": {},
+        "logs": [],
+        "outputs": []
+      },
+      {
+        "stepIndex": 1,
+        "nodeId": "ef7b92d1-0273-470a-83bd-42161a607720",
+        "nodeType": "start",
+        "nodeLabel": "Start",
+        "status": "completed",
+        "timestamp": 1779135238633,
+        "variables": {},
+        "logs": [
+          "Execution started"
+        ],
+        "outputs": []
+      },
+      {
+        "stepIndex": 2,
+        "nodeId": "cfc34aa1-0327-40d1-8d87-04932f177829",
+        "nodeType": "input",
+        "nodeLabel": "Input",
+        "status": "executing",
+        "timestamp": 1779135238890,
+        "variables": {},
+        "logs": [
+          "Execution started"
+        ],
+        "outputs": []
+      },
+      {
+        "stepIndex": 3,
+        "nodeId": "cfc34aa1-0327-40d1-8d87-04932f177829",
+        "nodeType": "input",
+        "nodeLabel": "Input",
+        "status": "completed",
+        "timestamp": 1779135238891,
+        "variables": {
+          "age": 15
+        },
+        "logs": [
+          "Execution started",
+          "Set age = 15"
+        ],
+        "outputs": []
+      },
+      {
+        "stepIndex": 4,
+        "nodeId": "3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+        "nodeType": "math",
+        "nodeLabel": "Math",
+        "status": "executing",
+        "timestamp": 1779135239155,
+        "variables": {
+          "age": 15
+        },
+        "logs": [
+          "Execution started",
+          "Set age = 15"
+        ],
+        "outputs": []
+      },
+      {
+        "stepIndex": 5,
+        "nodeId": "3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+        "nodeType": "math",
+        "nodeLabel": "Math",
+        "status": "completed",
+        "timestamp": 1779135239155,
+        "variables": {
+          "age": 15,
+          "total": 20
+        },
+        "logs": [
+          "Execution started",
+          "Set age = 15",
+          "Math: total = 15 + 5 => 20"
+        ],
+        "outputs": []
+      }
+    ],
+    "duration": 786,
+    "description": "Execution 1:43:59 AM",
+    "snapshot": {
+      "nodes": [
+        {
+          "id": "ef7b92d1-0273-470a-83bd-42161a607720",
+          "data": {
+            "label": "Start",
+            "isActive": false,
+            "isInPath": false,
+            "isPaused": false,
+            "breakpoint": false
+          },
+          "type": "start",
+          "position": {
+            "x": 120,
+            "y": 200
+          },
+          "width": 176,
+          "height": 65,
+          "style": {
+            "opacity": 0.4
+          }
+        },
+        {
+          "id": "a5da4ed8-8366-4d59-953b-0dde515dc449",
+          "data": {
+            "label": "End",
+            "isActive": false,
+            "isInPath": false,
+            "isPaused": false,
+            "breakpoint": false
+          },
+          "type": "end",
+          "position": {
+            "x": 760,
+            "y": 200
+          },
+          "width": 176,
+          "height": 65,
+          "style": {
+            "opacity": 0.4
+          }
+        },
+        {
+          "id": "cfc34aa1-0327-40d1-8d87-04932f177829",
+          "data": {
+            "label": "Input",
+            "value": "15",
+            "isActive": false,
+            "isInPath": true,
+            "isPaused": false,
+            "breakpoint": false,
+            "variableName": "age"
+          },
+          "type": "input",
+          "position": {
+            "x": 329.3157592149923,
+            "y": 27.72576007128569
+          },
+          "width": 150,
+          "height": 102,
+          "style": {
+            "opacity": 0.4
+          },
+          "selected": true,
+          "dragging": false
+        },
+        {
+          "id": "3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+          "data": {
+            "left": "age",
+            "label": "Math",
+            "right": "5",
+            "target": "total",
+            "isActive": false,
+            "isInPath": true,
+            "isPaused": false,
+            "operator": "+",
+            "breakpoint": false
+          },
+          "type": "math",
+          "position": {
+            "x": 533.1999816894531,
+            "y": 232.3999938964844
+          },
+          "width": 176,
+          "height": 65,
+          "style": {
+            "opacity": 1
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "reactflow__edge-ef7b92d1-0273-470a-83bd-42161a607720-cfc34aa1-0327-40d1-8d87-04932f177829",
+          "source": "ef7b92d1-0273-470a-83bd-42161a607720",
+          "target": "cfc34aa1-0327-40d1-8d87-04932f177829",
+          "sourceHandle": null,
+          "targetHandle": null
+        },
+        {
+          "id": "reactflow__edge-cfc34aa1-0327-40d1-8d87-04932f177829-3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+          "source": "cfc34aa1-0327-40d1-8d87-04932f177829",
+          "target": "3aa3ef45-7cd9-4367-822e-6327810aa6b2",
+          "sourceHandle": null,
+          "targetHandle": null
+        }
+      ]
+    },
+    "id": "1779135239427-5b30b5ce4051b"
+  }
+]
